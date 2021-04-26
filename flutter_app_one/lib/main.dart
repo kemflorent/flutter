@@ -8,8 +8,31 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child:
-              Icon(Icons.airport_shuttle, color: Colors.lightBlue, size: 50.0)
+          child: IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.alternate_email,
+              color: Colors.amber,
+            ),
+          )
+          /*RaisedButton.icon(
+            onPressed: () {},
+            icon: Icon(Icons.mail),
+            label: Text('mail me'),
+            color: Colors.amber,
+          )*/
+          /*child: RaisedButton(
+            onPressed: () {
+              print('Hello World!');
+            },
+            child: Text(
+              'Click me',
+              style: TextStyle(color: Colors.white),
+            ),
+            color: Colors.lightBlue,
+          )*/
+
+          //Icon(Icons.airport_shuttle, color: Colors.lightBlue, size: 50.0)
 
           /* Image(
             image: AssetImage('assets/computer.jpg'), // NetworkImage(),
